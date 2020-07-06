@@ -8,3 +8,8 @@ x = req.json()
 e = [d['word'] for d in x]
 for i in e:
     print('->',i)
+j = str(input('which word you like?'))
+if j in e:
+    print("Oh! Thast's cool")
+else:
+    print("Oops. That's not in list")
