@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 fig = plt.figure()
-data = pd.read_csv("C:/Users/rudra/Downloads/data.csv.csv")
+data = pd.read_csv("C:/Users/rudra/Downloads/data.csv.csv")#file location of data sets
 y = data['Father'].values
 x = data['Son'].values
 c = 0
